@@ -1,6 +1,6 @@
 const { test, expect } = require('../pages/baseFixtures');
 
-test.only('TC04_RegisterMember', async ({page,hp,lp,rp}) => {
+test('TC04_RegisterMember', async ({page,hp,lp,rp}) => {
 
     await hp.goto();
     await hp.waitForPageLoad();
